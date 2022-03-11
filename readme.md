@@ -2,7 +2,7 @@
 ClientUDP é um client criado em .NET Core com C#, é um projeto simples e de fácil entendimento, os dados são armazenado em uma Class chamado datagram que contém as variáveis que serão enviado para o servidor, essa class é convertido para XML e do XML é convertido para bytes[], é perfeito para criação de servidores de jogos como por exemplo a Unity 3D.
 
 ### Como utilizar
-Baixe os dois projetos ([ServerUDP](github.com/treviasxk/ServerUDP) e [ClientUDP](github.com/treviasxk/ClientUDP)) e apenas compile que já funcionará como demonstração, entre a comunicação do Server para o Client.
+Baixe os dois projetos ([ServerUDP](https://github.com/treviasxk/ServerUDP) e [ClientUDP](https://github.com/treviasxk/ClientUDP)) e apenas compile que já funcionará como demonstração, entre a comunicação do Server para o Client.
 
  ![Preview](screenshots/ServerUDP.jpg)
  ![Preview](screenshots/ClientUDP.jpg)
