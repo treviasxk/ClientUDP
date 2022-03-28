@@ -24,4 +24,3 @@ Baixe os dois projetos ([ServerUDP](https://github.com/treviasxk/ServerUDP) e [C
 |------|-----|
 | OnReceivedNewDataServer(datagram) | (ClientUDP) Aqui você receberá o datagram do servidor.|
 | OnReceivedNewDataClient(datagram, IPEndPoint) | (ServerUDP) Aqui você receberá o datagram e IPEndPoint do client que enviou o datagram.|
-| ChangeStatusServer(StatusServer) | Sempre que o servidor for ligado ou desligado.|
