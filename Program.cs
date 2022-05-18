@@ -11,9 +11,9 @@ class dtg {
 
 class Program {
    static void Main(string[] args){
-        ClientUDP.ConnectServer("127.0.0.1", 26950, new dtg());
-        ClientUDP.OnReceivedNewDataServer += new Eventos.OnReceivedNewDataServer(OnReceivedNewDataServer);
-        ClientUDP.OnStatusConnection += new Eventos.OnStatusConnection(OnStatusConnection);
+      ClientUDP.ConnectServer("127.0.0.1", 26950, new dtg());
+      ClientUDP.OnReceivedNewDataServer += new Eventos.OnReceivedNewDataServer(OnReceivedNewDataServer);
+      ClientUDP.OnStatusConnection += new Eventos.OnStatusConnection(OnStatusConnection);
    }
 
    //========================= Evento =========================

@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net6.0/ClientUDP.dll",
+            "program": "${workspaceFolder}/bin/Debug/net6.0/ClientUDP.exe",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "externalTerminal",
